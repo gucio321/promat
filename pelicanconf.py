@@ -20,10 +20,13 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Opiekun koła: dr hab. inż. Marek Wojtaszek, prof AGH', 'https://skos.agh.edu.pl/osoba/marek-wojtaszek-5026.html'),
+         ('E-mail: mwojtasz@metal.agh.edu.pl', 'mwojtasz@metal.agh.edu.pl'),
+         ('Opiekun Koła: mgr inż. Krystian Zyguła', 'https://skos.agh.edu.pl/osoba/krystian-zygula-9440.html'),
+         ('E-mail: kzygula@agh.edu.pl', 'kzygula@agh.edu.pl'),
+         ('Strona stworzona przy pomocy narzędzia Pelican', 'https://pelican.org'),
+         ('Źródło motywu strony', 'https://github.com/gregseth/bluegrasshopper-theme'),
+)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),

@@ -22,11 +22,11 @@
 /***** Global *****/
 /* Body */
 body {
-  	background-image:url('../img/grasshopper-wide.png'), url('../img/gradient.png'), url('../img/groovepaper.png');
+  	background-image:url('../img/grasshopper-wide.png'), url('../img/gradient.png');
   	background-repeat: no-repeat, repeat-x, repeat;
     background-attachment:fixed, fixed, scroll;
     background-position: center top, left top, left top;
-    background-color: #FFF;
+    background-color: #000;
     font-family: 'Arimo',sans-serif;
     font-size: 14px ;
     line-height: 1.429;
@@ -61,7 +61,7 @@ hr {
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
 a:link, a:visited {
-	color: #618697;
+	color: #999999;
 	padding: 0;
 	text-decoration: underline;
 }
@@ -114,7 +114,7 @@ ol {
     text-align:right;
 }
 
-#featured .post-info *, article:not(.hentry) .entry-content .post-info * {
+#featured .post-info *, a11rticle:not(.hentry) .entry-content .post-info * {
 	display: inline;
 }
 #featured .post-info .taglist:before, article:not(.hentry) .entry-content .post-info .taglist:before {
@@ -209,7 +209,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #ffffff;
 		display: block;
 		font-weight: bold;
 		margin: 0 0 .6em .2em;
@@ -218,7 +218,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
-		color: #000000;
+		color: #ffffff;
 		text-shadow:0px 0px .1em #FFFFFF, 0px 0px .5em #74aac2;
 
 	}
@@ -294,14 +294,15 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	overflow: hidden;
 	padding: 30px 60px;
 	width: 680px;
+        color: white;
 
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 
-	background-color:rgba(209,229,242,0.4);
+	background-color:rgba(50,50,40,0.8);
 	border: solid 1px rgba(255,255,255,.4);
-	}
+}
 
 #featured figure {
 	border: 2px solid #eee;
@@ -311,10 +312,10 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: #253c47; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h2 {color: #eeeeee; font-size: 1.714em; margin-bottom: 0.333em;}
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
-#featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
+#featured h3 a:link, #featured h3 a:visited {color: #fffff5; text-decoration: none;}
 #featured h3 a:hover, #featured h3 a:active {color: #fff;}
 
 /*
@@ -342,14 +343,14 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
-	color: #000000;
+	color: #ffffff;
 	font-size: 1.429em;
 	margin-bottom: .25em;
 	padding: 0 3px;
 }
 
 #extras a:link, #extras a:visited {
-	color: #444;
+	color: #999;
 	display: block;
 	border-bottom: 1px solid #f5e4e4;
 	text-decoration: none;
@@ -411,7 +412,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 
 #about .primary {float: left; width: 165px;}
-#about .primary strong {color: #C64350; display: block; font-size: 1.286em;}
+#about .primary strong {color: #aaaaaa; display: block; font-size: 1.286em;}
 #about .photo {float: left; margin: 5px 20px;}
 
 #about .url:link, #about .url:visited {text-decoration: none;}
