@@ -2,6 +2,10 @@ AUTHOR = "The SKN PROMAT's Website Authors"
 SITENAME = 'SKN PROMAT'
 SITEURL = ''
 
+THEME = "./theme"
+#To publish the favicon of the theme, place the following lines in your pelicanconfig file:
+#FILES_TO_COPY = (('pelican-bgh/static/favicon.ico', 'favicon.ico'),)
+
 PATH = 'content'
 
 TIMEZONE = 'Europe/Warsaw'
