@@ -1,6 +1,6 @@
 AUTHOR = "The SKN PROMAT's Website Authors"
 SITENAME = 'SKN PROMAT - ATTENTION! THIS SITE IS UNOFFICIAL AND WORK-IN-PROGRESS!'
-SITEURL = ''
+SITEURL = 'https://gucio321.github.io/promat'
 
 THEME = "./theme"
 #To publish the favicon of the theme, place the following lines in your pelicanconfig file:
