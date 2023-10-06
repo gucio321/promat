@@ -327,19 +327,25 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	overflow: hidden;
 	padding: 30px 60px;
 	width: 680px;
+        color: white;
 
 	border-radius: 0px;
 	-moz-border-radius: 0px;
 	-webkit-border-radius: 0px;
 
-	background-color:rgba(209,229,242,0.4);
+	background-color:rgba(50,50,40,0.8);
 	border: solid 1px rgba(255,255,255,.4);
 }
 
 /*
 	Extras
 *****************/
-#extras {margin: 0 auto 3em auto; overflow: hidden;}
+#extras {
+        margin: 0 auto 3em auto;
+        overflow: hidden;
+
+	background-color:rgba(10,10,5,0.8);
+}
 
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
