@@ -207,24 +207,23 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	padding: 2.5em 0 0 0;
 }
 
-	/* Banner */
-	#banner h1 {font-size: 3.571em; line-height: 0;}
-	#banner h1 a:link, #banner h1 a:visited {
-		color: #ffffff;
-		display: block;
-		font-weight: bold;
-		margin: 0 0 .6em .2em;
-		text-decoration: none;
-		width: 427px;
-	}
-	#banner h1 a:hover, #banner h1 a:active {
-		background: none;
-		color: #ffffff;
-		text-shadow:0px 0px .1em #FFFFFF, 0px 0px .5em #74aac2;
+/* Banner */
+#banner h1 {font-size: 3.571em; line-height: 0;}
+#banner h1 a:link, #banner h1 a:visited {
+	color: #ffffff;
+	display: block;
+	font-weight: bold;
+	margin: 0 0 .6em .2em;
+	text-decoration: none;
+	width: 427px;
+}
+#banner h1 a:hover, #banner h1 a:active {
+	background: none;
+	color: #ffffff;
+	text-shadow:0px 0px .1em #FFFFFF, 0px 0px .5em #74aac2;
+}
 
-	}
-
-	#banner h1 strong {font-size: 0.36em; font-weight: normal;}
+#banner h1 strong {font-size: 0.36em; font-weight: normal;}
 
 	/* Main Nav */
 	#banner nav {

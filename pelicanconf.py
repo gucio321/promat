@@ -34,5 +34,19 @@ SOCIAL = (('You can add links in your config file', '#'),
 
 DEFAULT_PAGINATION = 10
 
+DISPLAY_LOGOS = True
+LOGOS = [
+        {
+            "URL": "http://www.promat.agh.edu.pl/wp-content/uploads/elementor/thumbs/PROMAT2-p6gtyu2gmoj9xiwzo45ibl2q9lmy2y8q5dkc13adow.png",
+            "width": "100px",
+            "height": "80px",
+        },
+        {
+            "URL": "http://www.promat.agh.edu.pl/wp-content/uploads/elementor/thumbs/agh-logo_beztla-p6gtyofd1yrplq1fk5lu19b9bj71rur11ad6hyb8y0.png",
+            "width": "80px",
+            "height": "120px",
+        }
+]
+
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
