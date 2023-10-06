@@ -1,6 +1,6 @@
 Title: Project name voting
 Date: 2023-06-21 21:50
-Category: Timetable Generator
+Category: Aktualności
 
 Hi everyone!<br>
 We would like to invite you to vote for the name of our project.<br>
