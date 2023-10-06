@@ -1,5 +1,5 @@
 AUTHOR = "The SKN PROMAT's Website Authors"
-SITENAME = 'SKN PROMAT - ATTENTION! THIS SITE IS UNOFFICIAL AND WORK-IN-PROGRESS!'
+SITENAME = 'SKN PROMAT - WIP'
 SITEURL = 'https://gucio321.github.io/promat'
 
 THEME = "./theme"
