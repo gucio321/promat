@@ -1,5 +1,5 @@
-Title: Onas
-Category: NaszaDziałalność
+Title: O nas
+Category: Nasza Działalność
 
 Cześć!
 
