@@ -4,6 +4,8 @@
         <title>{% block title %}{{ SITENAME }}{%endblock%}</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="{{ SITEURL }}/theme/css/{{ CSS_FILE }}" type="text/css" />
+        <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/magnific-popup.css" />
+
         
         <link rel="alternate" href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" title="{{ SITENAME }}" type="application/rss+xml" />
         
@@ -85,5 +87,6 @@
 {% include 'piwik.html' %}
 {% include 'gosquared.html' %}
 {% include 'disqus_script.html' %}
+{% include 'lightbox_gallery.html' %}
 </body>
 </html>
