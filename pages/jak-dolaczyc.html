@@ -4,6 +4,8 @@
         <title>Jak dołączyć?</title>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="https://gucio321.github.io/promat/theme/css/main.css" type="text/css" />
+        <link rel="stylesheet" href="https://gucio321.github.io/promat/theme/css/magnific-popup.css" />
+
         
         <link rel="alternate" href="https://gucio321.github.io/promat/feeds/all.atom.xml" title="SKN PROMAT" type="application/rss+xml" />
         
@@ -30,6 +32,7 @@
                         <a href="https://gucio321.github.io/promat">SKN PROMAT </a></h1>
                 <nav><ul>
                     <li><a href="https://gucio321.github.io/promat/pages/o-nas.html">O nas</a></li>
+                    <li><a href="https://gucio321.github.io/promat/pages/galeria.html">Galeria</a></li>
                     <li><a href="https://gucio321.github.io/promat/pages/jak-dolaczyc.html">Jak dołączyć?</a></li>
                     <li ><a href="https://gucio321.github.io/promat/category/aktualnosci.html">Aktualności</a></li>
                 </ul></nav>
@@ -73,5 +76,31 @@
 
         </footer><!-- /#contentinfo -->
 
-</body>
+<!-- >>>> Start >>>>> PHOTO plugin: lightbox script >>>>>>>>> -->
+
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<script src="https://gucio321.github.io/promat/theme/js/zepto.min.js"></script>
+
+<!-- Magnific Popup core JS file -->
+<script src="https://gucio321.github.io/promat/theme/js/magnific-popup.min.js"></script>
+<script>
+$('.gallery').magnificPopup({
+	delegate: 'a',
+	type: 'image',
+	gallery: {
+		enabled: true,
+		navigateByImgClick: true,
+		preload: [1,2]
+	},
+	image: {
+		titleSrc: function(item) {
+			if (item.el.attr('caption') && item.el.attr('exif')) {
+				return (item.el.attr('caption').replace(/\\n/g, '<br />') +
+					'<small>' + item.el.attr('title') + ' - ' + item.el.attr('exif') + '</small>');
+			}
+		return item.el.attr('title') + '<small>' + item.el.attr('exif') + '</small>';
+	} }
+});
+</script>
+<!-- >>>> Start >>>>> PHOTO plugin: lightbox script >>>>>>>>> --></body>
 </html>
