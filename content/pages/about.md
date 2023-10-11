@@ -11,4 +11,4 @@ Nasi członkowie w ramach pracy w kole zdobywają wiedzę z zakresu inżynierii 
 W ramach działalności koła, realizujemy projekty naukowe oraz organizowane są liczne spotkania i wyjazdy do zakładów przemysłowych na terenie całej Polski, a także za granicę.
 
 Gorąco zapraszamy do współpracy wszystkich chętnych, którzy maja ciekawe pomysły i chcieliby rozwijać swoją wiedzę i umiejętności z zakresu przetwórstwa stopów i materiałów specjalnych.
-Informacje dla osób chcących przyłączyć się do koła znajdziecie w dziale “jak dołączyć?”
+Informacje dla osób chcących przyłączyć się do koła znajdziecie w dziale [Jak Dołączyć?](./jak-dolaczyc.html)
