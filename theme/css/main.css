@@ -22,7 +22,7 @@
 /***** Global *****/
 /* Body */
 body {
-  	background-image:url('http://www.promat.agh.edu.pl/wp-content/uploads/2021/03/MicrosoftTeams-image-1-1.jpg'), url('../img/gradient.png');
+  	background-image:url('../img/background.jpg'), url('../img/gradient.png');
   	background-repeat: no-repeat, repeat-x, repeat;
     background-attachment:fixed, fixed, scroll;
     background-position: center top, left top, left top;
