@@ -54,4 +54,4 @@ PHOTO_INLINE_GALLERY_ENABLED = True
 #PHOTO_LIBRARY = "photos"
 
 # Uncomment following line if you want document-relative URLs when developing
-RELATIVE_URLS = True
+#RELATIVE_URLS = True
