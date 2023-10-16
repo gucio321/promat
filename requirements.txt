@@ -1,2 +1,2 @@
 pelican[markdown]==4.8.0
-pelican-photos
+pelican-photos @ git+https://github.com/gucio321/photos
