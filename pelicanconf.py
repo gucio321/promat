@@ -4,7 +4,7 @@ SITEURL = 'https://gucio321.github.io/promat'
 
 THEME = "./theme"
 #To publish the favicon of the theme, place the following lines in your pelicanconfig file:
-#FILES_TO_COPY = (('pelican-bgh/static/favicon.ico', 'favicon.ico'),)
+STATIC_PATHS = ["static"]
 
 PATH = 'content'
 
@@ -47,6 +47,9 @@ LOGOS = [
             "height": "120px",
         }
 ]
+
+SHOW_SITE_LOGO = True
+SITE_LOGO = "static/logo.png"
 
 PLUGINS = ["photos"]
 PHOTO_LIBRARY = "photos"

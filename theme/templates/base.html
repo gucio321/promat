@@ -33,7 +33,11 @@
 {% include 'github.html' %}
         <header id="banner" class="body">
                 <h1>
-                        <a href="{{ SITEURL }}">{{ SITENAME }} {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
+                        <a href="{{ SITEURL }}">{{ SITENAME }}
+                        {% if SHOW_SITE_LOGO %}
+                                <img width=32 height=32 src="{{SITEURL}}/{{SITE_LOGO}}"/>
+                        {% endif %}
+                        {% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
                 <nav><ul>
                 {% for title, link in MENUITEMS %}
                     <li><a href="{{ link }}">{{ title }}</a></li>
