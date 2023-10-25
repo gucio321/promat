@@ -37,7 +37,7 @@ DEFAULT_PAGINATION = 10
 DISPLAY_LOGOS = True
 LOGOS = [
         {
-            "URL": "http://www.promat.agh.edu.pl/wp-content/uploads/elementor/thumbs/PROMAT2-p6gtyu2gmoj9xiwzo45ibl2q9lmy2y8q5dkc13adow.png",
+            "URL": "static/logo.png",
             "width": "100px",
             "height": "80px",
         },
