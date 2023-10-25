@@ -322,7 +322,12 @@ img.left, figure.left {
     font-weight: normal;
 }
 
-	/* Main Nav */
+#banner img {
+        width: 100%;
+        height: auto;
+}
+
+/* Main Nav */
 #banner nav {
     font-family: Gruppo, sans-serif;
     background: #000406;
@@ -589,6 +594,11 @@ img.left, figure.left {
 #contentinfo {
     padding-bottom: 2em;
     text-align: right;
+}
+
+.social img {
+        width: 16px;
+        height: 16px;
 }
 
 /***** Sections *****/
