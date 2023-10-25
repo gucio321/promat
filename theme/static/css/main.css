@@ -596,6 +596,11 @@ img.left, figure.left {
     text-align: right;
 }
 
+.social img {
+        width: 16px;
+        height: 16px;
+}
+
 /***** Sections *****/
 /* Blog */
 .hentry {

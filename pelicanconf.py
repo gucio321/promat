@@ -29,8 +29,8 @@ LINKS = (('Opiekun koła: dr hab. inż. Marek Wojtaszek, prof AGH', 'https://sko
 )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('Naszym Facebooku', 'https://www.facebook.com/KNPROMATAGH', 'static/facebook.png'),
+          ('Another social link', '#', ''),)
 
 DEFAULT_PAGINATION = 10
 

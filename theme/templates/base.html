@@ -72,8 +72,13 @@
                         <h2>Znajdziesz nas również:</h2>
                         <ul>
                             
-                        {% for name, link in SOCIAL %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        {% for name, link, image in SOCIAL %}
+                        <a href="{{ link }}">
+                                {% if image %}
+                                <img src={{ image }} />
+                                {%endif%}
+                                {{ name }}
+                        </a></li>
                         {% endfor %}
                         </ul>
                 </div><!-- /.social -->
