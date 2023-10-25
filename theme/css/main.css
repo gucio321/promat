@@ -275,7 +275,7 @@ article > p {
 .body {
     clear: both;
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
 }
 
 img.right figure.right {
@@ -323,7 +323,7 @@ img.left, figure.left {
 }
 
 #banner img {
-        width: 100%;
+        width: 50%;
         height: auto;
 }
 
@@ -338,7 +338,7 @@ img.left, figure.left {
     margin: 0 auto 2em auto;
     padding: 0;
     text-align: center;
-    width: 800px;
+    width: 100%;
     border: solid 1px #000;
     opacity: .9;
     border-radius: 5px;
