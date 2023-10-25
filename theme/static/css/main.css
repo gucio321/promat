@@ -25,12 +25,12 @@
 /***** Global *****/
 /* Body */
 body {
-    background-image: url('../img/background.jpg'), url('../img/gradient.png');
+    /*background-image: url('../img/background.jpg'), url('../img/gradient.png');*/
+    background-color: #fff;
     background-repeat: no-repeat, repeat-x, repeat;
     background-attachment: fixed, fixed, scroll;
     background-position: center top, left top, left top;
     background-size: 100%, auto, auto;
-    background-color: #000;
     font-family: 'Arimo',sans-serif;
     font-size: 14px;
     line-height: 1.429;
@@ -294,27 +294,27 @@ img.left, figure.left {
 #banner {
     margin: 0 auto;
     padding: 2.5em 0 0 0;
+    text-align: center;
 }
 
 /* Banner */
 #banner h1 {
     font-size: 3.571em;
-    line-height: 0;
 }
 
 #banner h1 a:link, #banner h1 a:visited {
-    color: #ffffff;
+    color: #000000;
     display: block;
     font-weight: bold;
     margin: 0 0 .6em .2em;
     text-decoration: none;
-    width: 427px;
+    /*width: 427px*/;
 }
 
 #banner h1 a:hover, #banner h1 a:active {
     background: none;
-    color: #ffffff;
-    text-shadow: 0px 0px .1em #FFFFFF, 0px 0px .5em #74aac2;
+    color: #000000;
+    text-shadow: 0px 0px .1em #FFFFFF, 0px 0px .5em #336479;
 }
 
 #banner h1 strong {
