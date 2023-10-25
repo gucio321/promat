@@ -38,8 +38,8 @@ DISPLAY_LOGOS = True
 LOGOS = [
         {
             "URL": "static/logo.png",
-            "width": "100px",
-            "height": "80px",
+            "width": "150px",
+            "height": "100px",
         },
         {
             "URL": "http://www.promat.agh.edu.pl/wp-content/uploads/elementor/thumbs/agh-logo_beztla-p6gtyofd1yrplq1fk5lu19b9bj71rur11ad6hyb8y0.png",
