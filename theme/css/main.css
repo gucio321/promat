@@ -399,7 +399,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 50%;
+    width: 80%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -447,7 +447,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 50%;
+    width: 80%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -457,20 +457,27 @@ img.left, figure.left {
 }
 
 /*
-	Extras
+Extras
 *****************/
 #extras {
-    margin: 0 auto 3em auto;
+    margin: 0 2em 3em auto;
     overflow: hidden;
     background-color: rgba(10,10,5,0.8);
 }
 
-#extras ul {
-    list-style: none;
-    margin: 0;
+#extras td {
+        background-color: #00000000;
 }
 
-#extras li {
+#extras ul tr {
+    margin: 1em;
+}
+
+#extras ul {
+    list-style: none;
+}
+
+#extras li td {
     border-bottom: 1px solid #fff;
 }
 
@@ -493,7 +500,7 @@ img.left, figure.left {
     color: #fff;
 }
 
-	/* Blogroll */
+/* Blogroll */
 #extras .blogroll {
     float: left;
     width: 70%;
@@ -505,7 +512,7 @@ img.left, figure.left {
     width: 190px;
 }
 
-	/* Social */
+/* Social */
 #extras .social {
     float: right;
     width: 30%;
@@ -517,9 +524,7 @@ img.left, figure.left {
     padding-left: 25px;
 }
 
-		/* Icons */
-
-
+/* Icons */
 .social a[href*='facebook.com'] {
     background-image: url('../img/icons/facebook.png');
     background-size: 16px 16px;
@@ -666,10 +671,10 @@ footer + p:first-letter {
     font-style: normal;
 }
 
-	/* Content */
+/* Content */
 .hentry footer {
     width: 150px;
-    margin: 0 2em 1em 0;
+    margin: 0 auto 1em 0;
     padding: 5px;
     background: rgba(255,255,255,.5);
     box-shadow: 0 0 8px #FFF;
