@@ -275,7 +275,7 @@ article > p {
 .body {
     clear: both;
     margin: 0 auto;
-    width: 800px;
+    width: 100%;
 }
 
 img.right figure.right {
@@ -323,12 +323,13 @@ img.left, figure.left {
 }
 
 #banner img {
-        width: 100%;
+        width: 50%;
         height: auto;
 }
 
 /* Main Nav */
 #banner nav {
+    text-align: center;
     font-family: Gruppo, sans-serif;
     background: #000406;
     font-size: 1.2em;
@@ -337,8 +338,7 @@ img.left, figure.left {
     line-height: 30px;
     margin: 0 auto 2em auto;
     padding: 0;
-    text-align: center;
-    width: 800px;
+    width: 100%;
     border: solid 1px #000;
     opacity: .9;
     border-radius: 5px;
@@ -349,12 +349,11 @@ img.left, figure.left {
 #banner nav ul {
     list-style: none;
     margin: 0 auto;
-    width: 800px;
     padding: 0 1em;
 }
 
 #banner nav li {
-    float: left;
+    float: center;
     display: inline;
     margin: 0 1px 0 0;
 }
@@ -400,7 +399,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 680px;
+    width: 50%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -448,7 +447,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 680px;
+    width: 50%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
