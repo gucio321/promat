@@ -39,7 +39,7 @@ LINKS = (
 
 # Social widget
 SOCIAL = (('Naszym Facebooku', 'https://www.facebook.com/KNPROMATAGH'),
-          ('Another social link', '#'),)
+          ('Repozytorium kodu źródłowego na GitHub\'ie', 'httpS://github.com/gucio321/promat'),)
 
 DEFAULT_PAGINATION = 10
 
