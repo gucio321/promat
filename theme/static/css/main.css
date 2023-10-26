@@ -399,7 +399,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 50%;
+    width: 80%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -447,7 +447,7 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 50%;
+    width: 80%;
     color: white;
     border-radius: 0px;
     -moz-border-radius: 0px;
@@ -460,14 +460,14 @@ img.left, figure.left {
 	Extras
 *****************/
 #extras {
-    margin: 0 auto 3em auto;
+    margin: 0 2em 3em auto;
     overflow: hidden;
     background-color: rgba(10,10,5,0.8);
 }
 
 #extras ul {
     list-style: none;
-    margin: 0;
+    margin: 1em;
 }
 
 #extras li {
@@ -666,10 +666,10 @@ footer + p:first-letter {
     font-style: normal;
 }
 
-	/* Content */
+/* Content */
 .hentry footer {
     width: 150px;
-    margin: 0 2em 1em 0;
+    margin: 0 auto 1em 0;
     padding: 5px;
     background: rgba(255,255,255,.5);
     box-shadow: 0 0 8px #FFF;
