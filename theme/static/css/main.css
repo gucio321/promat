@@ -457,7 +457,7 @@ img.left, figure.left {
 }
 
 /*
-	Extras
+Extras
 *****************/
 #extras {
     margin: 0 2em 3em auto;
@@ -465,12 +465,19 @@ img.left, figure.left {
     background-color: rgba(10,10,5,0.8);
 }
 
-#extras ul {
-    list-style: none;
+#extras td {
+        background-color: #00000000;
+}
+
+#extras ul tr {
     margin: 1em;
 }
 
-#extras li {
+#extras ul {
+    list-style: none;
+}
+
+#extras li td {
     border-bottom: 1px solid #fff;
 }
 
@@ -493,7 +500,7 @@ img.left, figure.left {
     color: #fff;
 }
 
-	/* Blogroll */
+/* Blogroll */
 #extras .blogroll {
     float: left;
     width: 70%;
@@ -505,7 +512,7 @@ img.left, figure.left {
     width: 190px;
 }
 
-	/* Social */
+/* Social */
 #extras .social {
     float: right;
     width: 30%;
@@ -517,9 +524,7 @@ img.left, figure.left {
     padding-left: 25px;
 }
 
-		/* Icons */
-
-
+/* Icons */
 .social a[href*='facebook.com'] {
     background-image: url('../img/icons/facebook.png');
     background-size: 16px 16px;

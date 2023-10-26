@@ -60,11 +60,14 @@
         {% if LINKS %}
                 <div class="blogroll">
                         <h2>Kontakt</h2>
-                        <ul>
-                        {% for name, link in LINKS %}
-                            <li><a href="{{ link }}">{{ name }}</a></li>
+                        <table>
+                        {% for cells in LINKS %}
+                                <tr>
+                                {% for name, link in cells%}
+                                        <td><a href="{{ link }}">{{ name }}</a>
+                                {% endfor %}
                         {% endfor %}
-                        </ul>
+                        </table>
                 </div><!-- /.blogroll -->
         {% endif %}
         {% if SOCIAL %}
