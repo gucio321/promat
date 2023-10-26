@@ -334,7 +334,7 @@ img.left, figure.left {
     background: #000406;
     font-size: 1.2em;
     font-weight: bold;
-    height: 40px;
+    height: auto;
     line-height: 30px;
     margin: 0 auto 2em auto;
     padding: 0;
