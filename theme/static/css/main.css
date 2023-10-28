@@ -87,15 +87,14 @@ a img {
 }
 
 a:link, a:visited {
-    color: #999999;
+    color: #555555;
     padding: 0;
     text-decoration: underline;
 }
 
 a:hover, a:active {
-    color: #fff;
     text-decoration: none;
-    text-shadow: 1px 1px 2px #618697,0px 0px 6px #618697;
+    text-shadow: 1px 1px 2px #0c3743,0px 0px 6px #3d7a8c;
 }
 
 h1 a:hover {
