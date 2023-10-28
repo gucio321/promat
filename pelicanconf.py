@@ -46,15 +46,29 @@ DEFAULT_PAGINATION = 10
 DISPLAY_LOGOS = True
 LOGOS = [
         {
-            "URL": SITEURL+"/static/logo.png",
+            "URL": "/static/logo.png",
             "width": "150px",
             "height": "100px",
+            "link": SITEURL,
         },
         {
-            "URL": "http://www.promat.agh.edu.pl/wp-content/uploads/elementor/thumbs/agh-logo_beztla-p6gtyofd1yrplq1fk5lu19b9bj71rur11ad6hyb8y0.png",
-            "width": "80px",
-            "height": "120px",
-        }
+            "URL": "/static/PPMiME-logo-150x150.png",
+            "width": "150px",
+            "height": "150px",
+            "link": 'https://www.facebook.com/PPMiME.agh/',
+        },
+        {
+            "URL": "/static/WIMiIP-logo-150x150.png",
+            "width": "150px",
+            "height": "150px",
+            "link": "https://www.metal.agh.edu.pl",
+        },
+        {
+            "URL": "/static/agh-logo-165x300.png",
+            "width": "82px",
+            "height": "150px",
+            "link": "https://agh.edu.pl",
+        },
 ]
 
 SHOW_SITE_LOGO = True
