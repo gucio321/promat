@@ -806,3 +806,7 @@ footer .tag {
 #add-comment * {
     margin-bottom: .5em;
 }
+
+.gallery {
+        text-align: center;
+}
