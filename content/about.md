@@ -3,7 +3,7 @@ Category: O Nas
 Date: 1000-01-01 00:00
 
 Jesteśmy grupą studentów studiującą na AGH w Krakowie.
-W 2002 roku otrzymaliśmy statut koła naukowego i obecnie działamy pod nazwą PROMAT przy Katedrze Plastycznej Przeróbki Metali Wydziału Inżynierii Metali i Informatyki Przemysłowej.
+W 2002 roku otrzymaliśmy statut koła naukowego i obecnie działamy pod nazwą PROMAT przy Katedrze Plastycznej Przeróbki Metali i Metalurgii Ekstrakcyjnej Wydziału Inżynierii Metali i Informatyki Przemysłowej.
 Nasi członkowie w ramach pracy w kole zdobywają wiedzę z zakresu inżynierii materiałowej, a w szczególności dotyczącą nowoczesnych technologii kształtowania materiałów oraz komputerowych technik projektowania i modelowania procesów przeróbki plastycznej.
 
 W ramach działalności koła realizujemy fascynujące projekty naukowe,
