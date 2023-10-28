@@ -46,7 +46,7 @@ DEFAULT_PAGINATION = 10
 DISPLAY_LOGOS = True
 LOGOS = [
         {
-            "URL": "static/logo.png",
+            "URL": SITEURL+"/static/logo.png",
             "width": "150px",
             "height": "100px",
         },
