@@ -1,10 +1,12 @@
 <footer class="post-info">
+        {%if article.locale_date != "Wed 01 January 1000" %}
         <span class="published" >
                 {{ article.locale_date }}
         </span>
         <address class="vcard author">
                 <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a> - <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
         </address>
+        {%endif%}
 <!--
 {% if PDF_PROCESSOR %}<p><a href="{{ SITEURL }}/pdf/{{ article.slug }}.pdf">Version pdf</a></p>{% endif %}
 {% include 'taglist.html' %}
