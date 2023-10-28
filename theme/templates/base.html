@@ -88,7 +88,9 @@
         <footer id="contentinfo" class="body">
                         {% if DISPLAY_LOGOS %}
                         {% for logo in LOGOS %}
-                                <img width={{ logo.width }} height={{ logo.height }} src="{{ logo.URL }}">
+                        <a href="{{ logo.link }}">
+                        <img width={{ logo.width }} height={{ logo.height }} src="{{ SITEURL }}{{ logo.URL }}">
+                        </a>
                         {% endfor %}
                         {% endif %}
 
