@@ -28,7 +28,7 @@ LINKS = (
             ('E-mail: mwojtasz@metal.agh.edu.pl', 'mwojtasz@metal.agh.edu.pl'),
         ),
         (
-            ('Opiekun Koła: mgr inż. Krystian Zyguła', 'https://skos.agh.edu.pl/osoba/krystian-zygula-9440.html'),
+            ('Opiekun Koła: dr inż. Krystian Zyguła', 'https://skos.agh.edu.pl/osoba/krystian-zygula-9440.html'),
             ('E-mail: kzygula@agh.edu.pl', 'kzygula@agh.edu.pl'),
         ),
         (
@@ -64,6 +64,8 @@ PLUGINS = ["photos"]
 PHOTO_LIBRARY = "photos"
 PHOTO_INLINE_GALLERY_ENABLED = True
 #PHOTO_LIBRARY = "photos"
+
+DEFAULT_CATEGORY = "Nasza Działalność"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
