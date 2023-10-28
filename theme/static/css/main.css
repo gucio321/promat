@@ -332,10 +332,10 @@ img.left, figure.left {
     text-align: center;
     font-family: Gruppo, sans-serif;
     background: #000406;
-    font-size: 1.2em;
+    font-size: 2em;
     font-weight: bold;
     height: auto;
-    line-height: 30px;
+    line-height: 50px;
     margin: 0 auto 2em auto;
     padding: 0;
     width: 100%;
@@ -364,7 +364,7 @@ img.left, figure.left {
     -webkit-border-radius: 5px;
     color: #fff;
     display: inline-block;
-    height: 30px;
+    height: 50px;
     padding: 2px 1em;
     text-decoration: none;
     border: solid 3px transparent;
@@ -399,13 +399,15 @@ img.left, figure.left {
     margin-bottom: 2em;
     overflow: hidden;
     padding: 30px 60px;
-    width: 80%;
-    color: white;
+    width: 50%;
+    color: black;
     border-radius: 0px;
     -moz-border-radius: 0px;
     -webkit-border-radius: 0px;
-    background-color: rgba(50,50,40,0.8);
+    /*background-color: rgba(50,50,40,0.8);*/
+    background-color: white;
     border: solid 1px rgba(255,255,255,.4);
+    font-size:20px;
 }
 
 #featured figure {
@@ -628,14 +630,14 @@ li:last-child .hentry, #content > .hentry {
 }
 
 .entry-title {
-    font-size: 3em;
+    font-size: 4em;
     margin-bottom: 10px;
     margin-top: 0;
 }
 
 .entry-title a:link, .entry-title a:visited {
     text-decoration: none;
-    color: #aac;
+    color: #224;
 }
 
 .entry-title a:visited {
