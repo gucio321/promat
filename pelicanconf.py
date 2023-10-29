@@ -28,7 +28,7 @@ LINKS = (
             ('E-mail: kzygula@agh.edu.pl', 'kzygula@agh.edu.pl'),
         ),
         (
-            ('Strona stworzona przy pomocy narzędzia Pelican', 'https://pelican.org'),
+            ('Strona stworzona przy pomocy narzędzia Pelican', 'https://getpelican.com'),
             ('Źródło motywu strony', 'https://github.com/gregseth/bluegrasshopper-theme'),
         ),
 )
